@@ -69,3 +69,11 @@ class MSTeamsAlert(AlertPlugin):
 		}
 
         })
+class MSTeamsAlertUserData(AlertPluginUserData):
+    name = "MS Teams Plugin"
+    msteams_alias = models.CharField(max_length=50, blank=True)
+
+    def serialize(self):
+        return {
+            "msteams_alias": self.msteams_alias
+        }		     
