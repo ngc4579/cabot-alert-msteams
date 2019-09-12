@@ -69,4 +69,4 @@ class MSTeamsAlert(AlertPlugin):
             ]
             # Here, we can add 'potentialAction' section with links to cabot, jenkins, etc
         })
-        logger.info('MSTeams response' + resp)
+        logger.info('MSTeams response ' + resp.text)
