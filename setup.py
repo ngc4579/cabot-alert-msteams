@@ -9,5 +9,5 @@ setup(name='cabot-alert-msteams',
       author_email='maxim.kur@exponential.com',
       url='http://cabotapp.com',
       packages=find_packages(),
-      download_url = 'https://github.com/agilistik/cabot-msteams/tarball/0.0.1',
+      download_url = 'https://github.com/imavroukakis/cabot-alert-msteams/tarball/0.0.1',
      )
