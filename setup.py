@@ -10,4 +10,4 @@ setup(name='cabot-alert-msteams',
       url='http://cabotapp.com',
       packages=find_packages(),
       download_url='https://github.com/imavroukakis/cabot-alert-msteams/tarball/0.0.2',
-     )
+      )
