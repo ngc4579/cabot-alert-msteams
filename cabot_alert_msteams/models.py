@@ -71,7 +71,7 @@ class MSTeamsAlert(AlertPlugin):
             }]
         }
         
-        logger.debug('Payload: ' + data)
+        logger.debug(data)
 
         resp = requests.post(url, data)
         logger.warn('MSTeams response ' + resp.text)
