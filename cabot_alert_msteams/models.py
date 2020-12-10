@@ -60,7 +60,7 @@ class MSTeamsAlert(AlertPlugin):
             "@type": "MessageCard",
             "@context": "http://schema.org/extensions",
             "themeColor": "FF0000",
-            "summary": service + " status"
+            "summary": "Status"
         }
         
         logger.debug(data)
