@@ -1,12 +1,11 @@
 Cabot MSTeams Plugin
 =====
 
-This is an alert plugin for the cabot service monitoring tool. It allows you to alert users by their user handle in a MS Teams channel.
+This is an alert plugin for the Cabot service monitoring tool. It allows you to send alerts to an MS Teams channel.
 
 ## Installation
-Enter the cabot virtual environment.
-- sudo pip install https://github.com/agilistik/cabot-msteams.git
-- foreman stop
-- Add cabot_alert_msteams to the installed apps in settings.py
-- foreman run python manage.py syncdb
-- foreman start
+
+Extend Dockerfile based on cabotapp/cabot:0.11.16
+
+- RUN apk add --no-cache git
+- RUN pip install https://github.com/ngc4579/cabot-alert-msteams
